@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('/desafios/d010/fontes/idroid.otf') format('opentype');
+    src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -17,7 +17,7 @@
     --cor5: #063d1e;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --font-destaque: "Bebas Neue", sans-serif;
+    --fonte-destaque: "Bebas Neue", sans-serif;
     --fonte-android: 'Android', cursive;
 }
 
@@ -46,7 +46,7 @@ header {
 
 header h1 {
     color: white;
-    font-family: var(--font-destaque);
+    font-family: var(--fonte-android);
     font-size: 3em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.282);
@@ -54,7 +54,7 @@ header h1 {
 }
 
 header p {
-    font-family: var(--font-destaque);
+    font-family: var(--fonte-android);
     font-size: 1.2em;
     color: white;
     max-width: 500px;
